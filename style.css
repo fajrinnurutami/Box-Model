@@ -62,6 +62,7 @@ body {
 
 .header {
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .header .judul {
@@ -84,4 +85,13 @@ body {
 
 .header a:hover {
     background-color: skyblue
+}
+
+.hero {
+    height: 250px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
 }
