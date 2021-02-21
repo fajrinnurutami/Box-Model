@@ -100,7 +100,7 @@ body {
     padding: 20px;
     width: 600px;
     box-sizing: border-box;
-    fl
+    float: left;
 }
 
 .main h2 {
@@ -120,6 +120,19 @@ body {
 .main p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+/* sidebar */
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: #333;
 }
 
 .footer {
